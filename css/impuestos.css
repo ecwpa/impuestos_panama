@@ -1,0 +1,12 @@
+@font-face{  
+    font-family: 'MankSans';  
+    src: url('../fonts/MankSans.ttf') format('truetype');  
+    } 
+	
+body { font-family: Sans-Serif;
+}
+
+.center { text-align: center !important; }		
+	
+.rango { max-width: 75px; }
+.seguro { max-width: 75px; }
