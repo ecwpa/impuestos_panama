@@ -15,3 +15,6 @@ http://slot-1.net/labs/impuestos/
 Hecho en PHP
 
 
+¿Cual es tu color favorito?
+================
+Ladies,verde caña.  Ya saben
