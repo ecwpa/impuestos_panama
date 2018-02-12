@@ -1,12 +1,38 @@
-@font-face{  
-    font-family: 'MankSans';  
-    src: url('../fonts/MankSans.ttf') format('truetype');  
-    } 
-	
-body { font-family: Sans-Serif;
+@font-face{
+    font-family: 'MankSans';
+    src: url('../fonts/MankSans.ttf') format('truetype');
+    }
+
+body { font-family: 'Roboto Condensed', Sans-Serif;
+}
+table {
+    font-family: Sans-Serif;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h1 { margin-top: 40px; }
+
+.center { text-align: center !important; }
+
+.calcular { margin-bottom: 30px; }
+
+
+/* table - cebra colors on */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.030);
+}
+/* table - hover */
+.table-hover tbody tr {
+    transition-duration: 0.25s;
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.125);
+    transition-duration: 0.25s;
 }
 
-.center { text-align: center !important; }		
-	
-.rango { max-width: 75px; }
-.seguro { max-width: 75px; }
+footer {
+    margin-top: 20px;
+}
